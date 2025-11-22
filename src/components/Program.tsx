@@ -77,7 +77,7 @@ const Program = () => {
         { time: "14:00–14:45", title: "Navigating Graduate School and Beyond", speaker: "Dr. Sarah Nadi", type: "Remote" },
         { time: "14:45–15:30", title: "Keynote - Towards a framework for the development of SPAs (smart process applications)", speaker: "Pr. Hafedh Mili", type: "On-site" },
         { time: "15:30–16:00", title: "Coffee Break", speaker: "", type: "" },
-        { time: "16:00–16:30", title: "Panel Discussion – open (students mentoring, best research practices, AI and SE in the Next Decade)", speaker: "", type: "On-site" },
+        { time: "16:00–16:30", title: "On Scoring the Security of Cyber-Physical Systems", speaker: "Pr. Abdelmajid Khelil", type: "On-site" },
         { time: "16:30–17:15", title: "Human in the Loop: Responsible Use of Generative AI Tools in Software Engineering Practice", speaker: "Pr. Bruce Maxim", type: "Remote" },
         { time: "17:15–18:00", title: "LLM-Based Agents for Software Engineering: Benefits and Drawbacks", speaker: "Dr. Fatemeh Fard", type: "Remote" },
         { time: "18:00–20:30", title: "Cultural Evening & Tunisian Dinner", speaker: "", type: "" },
@@ -162,7 +162,8 @@ const Program = () => {
       "Dr. Zadia Codabux", "Zadia Codabux", "Dr. Mohamed Aymen Saied", "Mohamed Aymen Saied",
       "Ms. Fatima Tambajang", "Fatima Tambajang", "Dr. Manel Abdellatif", "Manel Abdellatif",
       "Pr. Hafedh Mili", "Hafedh Mili", "Mr. Prasun Lala", "Prasun Lala",
-      "Pr. Yann-Gaël Guéhéneuc", "Yann-Gaël Guéhéneuc"
+      "Pr. Yann-Gaël Guéhéneuc", "Yann-Gaël Guéhéneuc",
+      "Pr. Abdelmajid Khelil", "Abdelmajid Khelil"
     ];
     return speakersWithPages.includes(speakerName);
   };
@@ -211,7 +212,9 @@ const Program = () => {
       "Mr. Prasun Lala": "/speakers/prasun-lala",
       "Prasun Lala": "/speakers/prasun-lala",
       "Pr. Yann-Gaël Guéhéneuc": "/speakers/yann-gael-gueheneuc",
-      "Yann-Gaël Guéhéneuc": "/speakers/yann-gael-gueheneuc"
+      "Yann-Gaël Guéhéneuc": "/speakers/yann-gael-gueheneuc",
+      "Pr. Abdelmajid Khelil": "/speakers/abdelmajid-khelil",
+      "Abdelmajid Khelil": "/speakers/abdelmajid-khelil"
     };
     return speakerMap[speakerName] || null;
   };

@@ -22,6 +22,7 @@ import sarahNadi from "@/assets/sarah-nadi.jpg";
 import alvineBelle from "@/assets/alvine-belle.jpg";
 import zadiaCodabux from "@/assets/zadia-codabux.png";
 import prasunLala from "@/assets/prasun-lala.jpg";
+import abdelmajidKhelil from "@/assets/abdelmajid-khelil.png";
 
 const Speakers = () => {
   const plenarySpeakers = [
@@ -150,6 +151,12 @@ const Speakers = () => {
       image: prasunLala,
       website: "https://www.etsmtl.ca/en/auteur/prasun-lala",
     },
+    {
+      name: "Pr. Abdelmajid Khelil",
+      title: "Landshut University of Applied Sciences, Germany",
+      image: abdelmajidKhelil,
+      website: "https://www.haw-landshut.de/",
+    },
   ];
 
   const hasDetailPage = (speakerName: string) => {
@@ -172,7 +179,8 @@ const Speakers = () => {
            speakerName === "Dr. Manel Abdellatif" ||
            speakerName === "Pr. Hafedh Mili" ||
            speakerName === "Mr. Prasun Lala" ||
-           speakerName === "Pr. Yann-Gaël Guéhéneuc";
+           speakerName === "Pr. Yann-Gaël Guéhéneuc" ||
+           speakerName === "Pr. Abdelmajid Khelil";
   };
 
   const getDetailPageLink = (speakerName: string) => {
@@ -235,6 +243,9 @@ const Speakers = () => {
     }
     if (speakerName === "Pr. Yann-Gaël Guéhéneuc") {
       return "/speakers/yann-gael-gueheneuc";
+    }
+    if (speakerName === "Pr. Abdelmajid Khelil") {
+      return "/speakers/abdelmajid-khelil";
     }
     return null;
   };

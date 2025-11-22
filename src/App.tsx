@@ -26,6 +26,7 @@ import ManelAbdellatif from "./pages/speakers/ManelAbdellatif";
 import HafedhMili from "./pages/speakers/HafedhMili";
 import PrasunLala from "./pages/speakers/PrasunLala";
 import YannGaelGueheneuc from "./pages/speakers/YannGaelGueheneuc";
+import AbdelmajidKhelil from "./pages/speakers/AbdelmajidKhelil";
 
 const queryClient = new QueryClient();
 
@@ -83,6 +84,7 @@ const App = () => (
           <Route path="/speakers/hafedh-mili" element={<HafedhMili />} />
           <Route path="/speakers/prasun-lala" element={<PrasunLala />} />
           <Route path="/speakers/yann-gael-gueheneuc" element={<YannGaelGueheneuc />} />
+          <Route path="/speakers/abdelmajid-khelil" element={<AbdelmajidKhelil />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
