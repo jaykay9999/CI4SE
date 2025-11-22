@@ -62,14 +62,6 @@ const AbdelmajidKhelil = () => {
                   </p>
                 </div>
 
-                <div>
-                  <h2 className="text-2xl font-bold mb-3">Abstract</h2>
-                  <div className="text-muted-foreground space-y-4 leading-relaxed">
-                    <p>
-                      This talk will explore methodologies and frameworks for assessing and scoring the security of cyber-physical systems (CPS). As critical infrastructure increasingly relies on the integration of computational and physical processes, understanding and quantifying security risks becomes essential. The discussion will cover key challenges in CPS security evaluation, metrics for scoring vulnerabilities, and best practices for improving resilience against cyber threats.
-                    </p>
-                  </div>
-                </div>
 
                 <div>
                   <h2 className="text-2xl font-bold mb-3">Biography</h2>
